@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://3dmolier.github.io/3dmolier-models/sitemap.xml
