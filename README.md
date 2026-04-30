@@ -14,8 +14,8 @@ Static SEO website for GitHub Pages.
 ## What to edit first
 
 - `data.js`: replace sample model cards with real TurboSquid product links and image URLs.
-- `custom-3d-modeling.html`: replace `your-email@example.com` with your email.
-- `sitemap.xml`, `robots.txt`, canonical URLs: replace `https://3dmolier.github.io/3dmolier-models/` with your final GitHub Pages URL or custom domain.
+- `custom-3d-modeling.html`: replace `dddmolier@gmail.com` with your email.
+- `sitemap.xml`, `robots.txt`, canonical URLs: replace `https://andrey3dmolier-glitch.github.io/3dmolier-models/` with your final GitHub Pages URL or custom domain.
 - Category pages: expand each page with real model examples and internal links.
 
 ## Recommended next step
