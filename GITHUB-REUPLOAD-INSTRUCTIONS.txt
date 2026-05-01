@@ -1,8 +1,14 @@
-Как полностью заменить проект на GitHub:
+FULL CLEAN REUPLOAD INSTRUCTIONS
 
-1. Откройте репозиторий 3dmolier-models на GitHub.
-2. Удалите старые файлы проекта. Через браузер это можно сделать по одному файлу: откройте файл -> Delete this file -> Commit changes.
-3. Обязательно удалите старую папку models и старую папку assets, чтобы не остались старые локальные изображения и битые пути.
-4. Самый удобный способ: GitHub Desktop. Clone repository -> удалить все файлы локально -> распаковать этот архив в папку репозитория -> Commit -> Push.
-5. Если через браузер: распакуйте архив, загрузите файлы и папки частями меньше 100 файлов за раз. Не загружайте ZIP.
-6. После обновления GitHub Pages откройте сайт и нажмите Ctrl+F5.
+1. Open GitHub Desktop and open the local repository folder for 3dmolier-models.
+2. Delete all old files and folders inside the repository folder, but DO NOT delete the hidden .git folder.
+3. Unzip this archive.
+4. Copy all files and folders from the unzipped archive into the repository root.
+5. In GitHub Desktop, Summary: Rebuild site with TurboSquid JPG images
+6. Click Commit to main.
+7. Click Push origin.
+8. Wait a few minutes for GitHub Pages to update.
+9. Open https://3dmolier.github.io/3dmolier-models/ in an incognito window or press Ctrl+F5.
+
+Important: do not upload the ZIP file itself to GitHub. Upload/copy the files inside it.
+This version does not use local model WebP images. Model cards use exact TurboSquid JPG preview URLs from the data file.
